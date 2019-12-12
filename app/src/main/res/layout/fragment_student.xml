@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.studentFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Student Details"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/txtformname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/txtformage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Gender" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/radiomale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radiofemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/radioothers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Others" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txtformaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:hint="Address"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btncalculates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:textSize="25dp">
+
+    </Button>
+
+</LinearLayout>
